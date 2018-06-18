@@ -1,3 +1,4 @@
+############ Calculating enrichment of set of pathways based on their expression using ASSIGN algorithm
 ASSIGN_Calculation  <- function(ExpMat_Test, ExpMat_Ref, GeneVec, PathwaySet){
 
  ASSIGN_Vec <- c()

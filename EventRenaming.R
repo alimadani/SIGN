@@ -1,3 +1,4 @@
+########## Changing annotation of censored samples to 0 and dead samples to 1 for survival analysis
 EventRenaming <- function(EventVec, Censored_Annot){
 
  CensoredInd <- which(EventVec == Censored_Annot)

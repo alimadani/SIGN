@@ -1,3 +1,5 @@
+###########  Calculating correlation between enrichment of pathways, identified using ASSIGN algorithm
+###########  Pearson correlation, wilcoxon paried rank correlation, and absolute z-scores are used to compare enrichment of set of pathways
 ASSIGN_Wrapper <- function(ExpMat_Test, ExpMat_Ref1, ExpMat_Ref2, GeneVec, PathwaySet){
 
  ASSIGN_Vec1 <- ASSIGN_Calculation(ExpMat_Test, ExpMat_Ref1, GeneVec, PathwaySet)

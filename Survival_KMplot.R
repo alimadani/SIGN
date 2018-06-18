@@ -1,3 +1,5 @@
+############  Calculating summary metric for the prediction of survival of samples
+############  Plot the survival curve based on the predicted classes
 Survival_KMplot <- function(TimeVec, EventVec, Class, MaxTime, OutDir, Name){
 
  surv.obj <- survfit(Surv(TimeVec,EventVec) ~ Class)

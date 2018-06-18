@@ -1,3 +1,5 @@
+##########  Removing uncommon genes between a list of expression matrices
+##########
 GeneMatching <- function(ExpList){
  
   CommonGenes <- as.character(rownames(ExpList[[1]]))

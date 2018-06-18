@@ -1,4 +1,6 @@
-
+##########  Calculating correlation between expression level of pathways
+##########  GSVA is used to calculate enrichment of genes based on their expression in a set of pathways
+##########  Pearson correlation, bubble sort, and wilcoxon paaired rank test, are used to calculated correlation between enrichment of the pathways
 GSVA_Calculation <- function(ExpMat1, ExpMat2, GeneVec, GeneSets, Name){
 
  rownames(ExpMat1) <- GeneVec

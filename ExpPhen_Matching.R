@@ -1,3 +1,4 @@
+############ Matching samples between expression matrices and metadata matrix (clinical feature matrix)
 ExpPhen_Matching <- function(ExpMat, MetaMat, SamID_Meta){
  
  SamIntersect <- intersect(as.character(colnames(ExpMat)), as.character(MetaMat[,SamID_Meta]))
