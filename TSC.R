@@ -1,3 +1,5 @@
+##########  Calculating transcriprtional similarity coefficient between two biological pathways
+##########  
 TSC <- function(PathwayExp1, PathwayExp2){
   AA <- PathwayExp1%*%t(PathwayExp1)
   BB <- PathwayExp2%*%t(PathwayExp2)

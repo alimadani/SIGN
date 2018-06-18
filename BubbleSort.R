@@ -1,3 +1,5 @@
+##########  Calculating bubble sort correlation between two vectors
+##########
 BubbleSort <- function(Vec1,Vec2){
   if(length(Vec1)!=length(Vec2)){
     stop("permutations need to be of same length!")
